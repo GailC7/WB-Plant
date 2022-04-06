@@ -7,6 +7,7 @@
 */
 /**/
 body {
+    background-color: #198754;
     font-family: 'Raleway', sans-serif; /*font-family changes the font*/
     margin: 0;                          /*margin:0 eliminates the browser's default margin (8px); */
     width: 100%;                        /*width: 100% spans the display width*/
@@ -38,7 +39,7 @@ body {
 
 header, nav, footer {
     background-color: rgba(50,50,50,.8);    /*The background will be a dark gray and partially transparent*/
-    background-image: url("assets/img/") ;
+    background-image: url("../assets/img/PlantIdenti/plantIdent1.jpg") ;
     color: #eee;                            /*Font color will be light gray*/
     width: 100%;                              /**/
     margin: 0;                                /*Sets margin to 0*/
