@@ -39,7 +39,7 @@ body {
 
 header, nav, footer {
     background-color: rgba(50,50,50,.8);    /*The background will be a dark gray and partially transparent*/
-    background-image: url("../assets/img/PlantIdenti/plantIdent1.jpg") ;
+    background-image: url("../assets/img/plantidenti/plantIdent1.jpg");
     color: #eee;                            /*Font color will be light gray*/
     width: 100%;                              /**/
     margin: 0;                                /*Sets margin to 0*/
