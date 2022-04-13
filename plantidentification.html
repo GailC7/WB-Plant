@@ -16,34 +16,103 @@
         Assignment:     Semester Project
         Purpose:        Code for Semester Project plant identification page
     -->
-    <link href="css/plantIdentStyle.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <h1>Plant Indentification</h1>
-    </header>
-    <nav>
-        <a href='#'>Home</a>
+     <!-- Navigation-->
+     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand-icon" href ="#page-top"></a> <!--Our Custom  Icon-->
+            <a class="navbar-brand" href="#page-top">Plant Shop</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Services</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <br>
-    <div id="container" style="width: 1200px; background-color: antiquewhite";>
-        <div id="left-pane">
-            <h2>Basics</h2>
-            <p>
-                <img class="img-left" src="images/placeholder.jpg" alt="placeholder">
-                TLorem ipsum dolor sit amet, gravida facilisi orci nulla. Erat dolor, sagittis blandit, maecenas quis mi suscipit, risus enim tincidunt erat. Eu justo, senectus ut mattis laoreet et. Nec ultricies ultrices iaculis non asperiores urna, nec ut dolor dignissim, sodales purus pretium eget, wisi integer molestie arcu platea, urna ut in ipsum laoreet. Aenean fusce donec, arcu elit, placerat arcu laoreet libero eu vitae.
-            </p>
-        </div>
-        <div id="right-pane">
-            <h2>Types</h2>
-            <p>
-                <img class="img-left" src="images/placeholder.jpg" alt="placeholder">
-                Eget ut imperdiet non nec condimentum, dui vestibulum euismod, non massa ut laoreet erat eu neque. Dignissim pharetra, dictum eu, quam eget dolor, elit lorem pretium suscipit quis fringilla, metus erat velit nulla enim arcu. Minima ipsum nunc natoque duis, ipsum at ut congue auctor tincidunt justo. Suspendisse auctor, iaculis sagittis faucibus amet, lacus praesent pellentesque in, nam mauris, bibendum donec id et suspendisse turpis magnis. Nisl tincidunt mi enim nunc integer libero, interdum tristique dolor, sed amet. Ligula tellus id et ligula tellus, facilisi mauris habitasse a.
-            </p>
 
-        
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" style="width: 30rem" src="assets/img/plantidenti/PlantTitle.jpg" alt="..." />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Plant Identification</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
         </div>
+    </header>
+
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content TEXT-->
+            <div class="row">
+                <div class="col-lg-4 ms-auto"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p></div>
+
+                <div class="col-lg-4 me-auto"><p class="lead">retium vulputate sapien nec sagittis. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. In fermentum et sollicitudin ac orci. Eu mi bibendum neque egestas. Blandit massa enim nec dui nunc mattis. </p></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">
+                        123 Sesame St
+                        <br />
+                        Johnson City, TN
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About Plant Shop</h4>
+                    <p class="lead mb-0">
+                        Freelance is a free to use, MIT licensed Bootstrap theme created by
+                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                        .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Plant Shop 2022</small></div>
     </div>
+    
+
+    
     <script src="/js/w3c.js"></script>
     
 </body>
