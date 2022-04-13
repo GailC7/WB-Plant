@@ -1,70 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="authors" content="Derrick Sizemore, Gabriel Vieira Ramos, Gail Chintalekha, Ryan Cooper">
     <meta name="date" content="03/21/2022">
     <meta name="description" content="csci 1210 semester project">
     <meta name="keywords" content="csci, 1210, semester project">
-
+    <link rel="icon" type="image/x-icon" href="assets/sun-plant-wilt-solid.svg"/> 
     <title>Tools & Supplies</title>
 
     <!--
-        Authors:        
+        Authors:        Ryan Cooper
         Date:           03/21/2022
         Last Revisited: 
         Assignment:     Semester Project
         Purpose:        Code for Semester Project Tools Page
     -->
-    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/sun-plant-wilt-solid.svg" /> 
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/plantTools.css">
+
 </head>
 <body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <!--Navigation for Plant Tools-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="secondaryNav" style>
         <div class="container">
-            <a class="navbar-brand-icon" href ="#page-top"></a> <!--Our Custom  Icon-->
-            <a class="navbar-brand" href="#page-top">Plant Shop</a>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
+            <a class="navbar-brand-icon" href="#page-top"></a>
+            <a class="navbar-brand" href="planttools.html">Tools &amp; Supplies Page</a>
+
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+                    Menu
+                    <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"></path></svg>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="navbar-collapse collapse show" id="navbarResponsive" style="">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Services</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Homepage</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="plantcare.html">Plant Care</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="plantidentification.html">Identification</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="plantshops.html">Shops Nearby</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="aboutus.html">About Us!</a></li>
                 </ul>
             </div>
-        </div>
     </nav>
 
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" style="width: 30rem" src="assets/img/" alt="..." />
-            <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Plant Tools</h1>
+     <!--Hero section for Plant Tools-->
+     <section class="hero">
+         <div class="hero-container">
+             <div class="left-col">
+                 <h1 class="img-subhead">Lawn &amp; Garden Tools</h1>
+                 <p class="hero-sub-para">Here you can find useful information about gardening tools/accessories and what they're used for.</p>
+             </div>
+         </div>
+         <div class="hero-sub-head">
+            <h2 class="hero-sub-header">Get started growing your garden.</h2>
+            <img class="hero-img" src="assets/img/plantTools/hero-gardening.jpeg" alt="Gloved hands inserting a plant in the ground">
+         </div>
+     </section>
+
+     <!--Grid section for Tools-->
+     <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Tools Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Tools</h2>
             <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
+            <div class="divider-custom">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
+                <div class="row justify-content-center">
+                    <!--Garden Trowels-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/plantTools/hero-trowel.jpeg" alt="Garden Trowel"/>
+                        </div>
+                    </div>
+                    <!--Garden Rakes-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/plantTools/hero-rake.jpeg" alt="Garden Rake" />
+                        </div>
+                    </div>
+                    <!--Garden Hoes-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/plantTools/hero-hoe.jpeg" alt="Garden Hoe" />
+                        </div>
+                    </div>
+                    <!--Weeders-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/plantTools/hero-weeders.jpeg" alt="Garden Hand-Held Weeders" />
+                        </div>
+                    </div>
+                    <!--Shovels-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/plantTools/hero-shovel.jpeg" alt="Garden Shovel" />
+                        </div>
+                    </div>
+                    <!--Garden Gloves-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/plantTools/hero-gloves.jpeg" alt="Garden Gloves" />
+                        </div>
+                    </div>
+                    <!--Carts & Wheelbarrows-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/plantTools/hero-wheelbarrow.jpeg" alt="Wheelbarrow" />
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+     <!--Garden Trowels Modal-->
+     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Garden Trowels</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Garden Trowels - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/plantTools/modal-trowel.jpeg" alt="An Assortment of Trowels" />
+                                <!-- Garden Trowels - Text-->
+                                <p class="mb-4">Garden Trowels are used for digging small holes, in order to plant bulbs, annuals or perennials. These wouldn't be used for digging a tree or shrub. Trowels can also be used for weeding!</p> 
+                                <button class="btn btn-link">
+                                    <a href="plantshops.html">Shops Nearby</a> 
+                                </button>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
+    </div>
 
-    <!--PAGE CONTENT-->
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-            
+    <!--Garden Rakes Modal-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Garden Rakes</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Garden Rakes - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/plantTools/modal-rake.jpeg" alt="An Assortment of Rakes" />
+                                <!-- Garden Rakes - Text-->
+                                <p class="mb-4">Rakes are used in gardening in order to scoop, scrape or gather. Other rakes can be used as a tool for leveling materials like soil, mulch, or leaves. Some rakes have flat heads, most have sharp metal tines used to break up compacted soil or rock.</p> 
+                                <button class="btn btn-link">
+                                    <a href="plantshops.html">Shops Nearby</a> 
+                                </button>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
+    <!--Garden Hoes Modal-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Garden Hoes</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Garden Hoes - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/plantTools/modal-hoes.jpeg" alt="Assortment of Garden Hoes" />
+                                <!-- Garden Hoes - Text-->
+                                <p class="mb-4">Garden Hoes are used for cultivating soil and removing weeds. Hoes actually predate the plow and has been used for millenia when it comes to cultivating soil for plants.</p> 
+                                <button class="btn btn-link">
+                                    <a href="plantshops.html">Shops Nearby</a> 
+                                </button>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         
+    <!--Weeders Modal-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Weeders</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Weeders - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/plantTools/modal-weeders.jpeg" alt="Different types of Weeders" />
+                                <!-- Weeders - Text-->
+                                <p class="mb-4">There are many different types of weeding tools, all specifically designed to remove weeds from your lawn or elsewhere. Cape Cod weeders are used in tighter spaces, while a paving weeder can be used for getting rid of weeds growing between or on concrete slabs.</p> 
+                                <button class="btn btn-link">
+                                    <a href="plantshops.html">Shops Nearby</a> 
+                                </button>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Footer-->
-    <footer class="footer text-center">
+    <!--Shovels Modal-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Shovels</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Shovels - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/plantTools/modal-shovels.jpeg" alt="Different types of Shovels" />
+                                <!-- Shovels - Text-->
+                                <p class="mb-4">Shovels are used for removing large amounts of soil. They are meant for digging, transplanting, and lifting for all sorts of garden tasks.</p> 
+                                <button class="btn btn-link">
+                                    <a href="plantshops.html">Shops Nearby</a> 
+                                </button>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Garden Gloves Modal-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Garden Gloves</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Garden Gloves - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/plantTools/modal-gloves.jpeg" alt="Collection of Garden Gloves" />
+                                <!-- Garden Gloves - Text-->
+                                <p class="mb-4">Garden Gloves are used to keep your hands safe from injury, while also protecting you from the dirt, grime, and on-hands tasks you will perform in your garden.</p> 
+                                <button class="btn btn-link">
+                                    <a href="plantshops.html">Shops Nearby</a> 
+                                </button>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Carts & Wheelbarrows Modal-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Carts &amp; Wheelbarrows</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Carts & Wheelbarrows - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/plantTools/modal-wheelbarrow.jpeg" alt="Different Wheelbarrows" />
+                                <!-- Carts & Wheelbarrows - Text-->
+                                <p class="mb-4">Wheelbarrows are used for transferring materials often too heavy to carry by yourself. They can be used for moving rock, soil, mulch, certain trees and shrubs, as well as mixing concrete or fertilizer.</p> 
+                                <button class="btn btn-link">
+                                    <a href="plantshops.html">Shops Nearby</a> 
+                                </button>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Footer-->
+     <footer class="footer text-center">
         <div class="container">
             <div class="row">
                 <!-- Footer Location-->
