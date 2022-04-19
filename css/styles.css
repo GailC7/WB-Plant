@@ -11507,3 +11507,53 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+/* Plat Care Page Specific Styling */
+.containerCare
+{
+  padding-bottom: 5rem;
+  max-width: 800px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.floatLeftCare {
+  display: block;
+  float: left;
+  height: 150px;
+  margin-right: 1em;
+}
+
+.floatRightCare {
+  display: block;
+  float: right;
+  height: 150px;
+  margin-left: 1em;
+}
+
+.mastheadCare {
+  padding-top: calc(4rem + 74px);
+  padding-bottom: 1rem;
+}
+.mastheadCare .masthead-headingCare {
+  font-size: 2.75rem;
+  line-height: .75rem;
+}
+.mastheadCare .masthead-subheadingCare {
+  font-size: 1.25rem;
+}
+.mastheadCare .masthead-avatarCare {
+  width: 15rem;
+}
+
+.pCare {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.imgCare {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+}
+/* End Plant Care Page Styling */
