@@ -38,3 +38,19 @@ a.button {
 h2 {
     text-align: center;
 }
+
+.floatRight {
+    display: block;
+    float: right;
+    height: 300px;
+    margin-left: 2em;
+    text-align: right;
+  }
+
+  .table1 {
+    width: 50px;
+    margin: 40px auto;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    float: right;
+}
