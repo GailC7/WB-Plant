@@ -27,21 +27,20 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/plantTools.css">
-
+    
 </head>
 <body>
     <!--Navigation for Plant Tools-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="secondaryNav" style>
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand-icon" href="#page-top"></a>
-            <a class="navbar-brand" href="planttools.html">Tools &amp; Supplies Page</a>
+            <a class="navbar-brand" href="planttools.html">Plant Shop</a>
 
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
                     Menu
                     <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"></path></svg>
             </button>
-            <div class="navbar-collapse collapse show" id="navbarResponsive" style="">
+            <div class="navbar-collapse collapse show" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="plantcare.html">Care</a></li>
@@ -51,7 +50,27 @@
             </div>
     </nav>
 
-     <!--Hero section for Plant Tools-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" style="width: 35em;" src="assets/img/plantTools/hero-gardening.jpeg"/>
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Tools &amp; Supplies</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Here you can learn all about the different types of tools that come with a successful garden/grow</p>
+        </div>
+    </header>
+    
+    
+    
+    
+    <!--Hero section for Plant Tools
      <section class="hero">
          <div class="hero-container">
              <div class="left-col">
@@ -64,17 +83,11 @@
             <img class="hero-img" src="assets/img/plantTools/hero-gardening.jpeg" alt="Gloved hands inserting a plant in the ground">
          </div>
      </section>
+     -->
 
      <!--Grid section for Tools-->
      <section class="page-section portfolio" id="portfolio">
         <div class="container">
-            <!-- Tools Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Tools</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fa-solid fa-trowel"></i></div>
-                <div class="divider-custom-line"></div>
             </div>
                 <div class="row justify-content-center">
                     <!--Garden Trowels-->
@@ -419,11 +432,9 @@
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">About Plant Shop</h4>
+                    <h4 class="text-uppercase mb-4"><a href="index.html#about">About Plant Shop</a></h4>
                     <p class="lead mb-0">
-                        Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                        .
+                        Click the link above to learn more about Plant Shop and what we do!
                     </p>
                 </div>
             </div>
